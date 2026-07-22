@@ -1,4 +1,4 @@
-public class WordDocumentFactory extends DocumentFactory {
+public class WordFactory extends DocumentFactory {
 
     @Override
     public Document createDocument() {
