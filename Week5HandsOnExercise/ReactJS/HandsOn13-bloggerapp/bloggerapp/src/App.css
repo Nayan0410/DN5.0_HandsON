@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.column {
+    width: 280px;
+    padding: 0 30px;
+}
+
+.separator {
+    border-left: 3px solid green;
+}
+
+.item {
+    margin-bottom: 25px;
+}

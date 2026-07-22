@@ -1,0 +1,23 @@
+import { books } from "./data";
+
+function BookDetails() {
+
+    return (
+        <div className="column">
+            <h1>Book Details</h1>
+
+            {
+                books.map(book => (
+
+                    <div className="item" key={book.id}>
+                        <h3>{book.bname}</h3>
+                        <h4>{book.price}</h4>
+                    </div>
+
+                ))
+            }
+        </div>
+    );
+}
+
+export default BookDetails;
